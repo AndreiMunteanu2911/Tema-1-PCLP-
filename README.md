@@ -1,7 +1,7 @@
 # Tema-1-PCLP-
 
-Task 1
+Task 1:
 Citim de la tastatura variabila inst si o trimitem functiei numarare_biti drept parametru. Variabila N ia valoarea numarului trimis, iar apoi este shiftata la dreapta de 29 de ori pentru a ramane cu cei 3 biti ce desemneaza numarul de instructiuni ce vor fi executate. Variabila copie, careia i-a fost atribuita deasemenea valoarea variabilei inst, este shiftata la stanga cu 3 biti pentru a scapa de bitii ce desemneaza N. Apoi, in comanda for, cu ajutorul unei masti, izolam primii 2 biti din variabila copie pentru a decoda operatia, si afisam semnul corespunzator. In final, la iesirea din for, cu ajutorul altei masti izolam urmatorii 4 biti din numar, ce desemneaza dimensiunea operandului, ii stocham in variabila Dim si ii afisam.
 
-Task 2
+Task 2:
 Pornind de la codul din task1.c, am adaugat cod functiei numarare_biti pentru a rezolva cerinta 2. Am stocat valoarea numerica a fiecarei operatii in vectorul tablou_operatii. In variabila nr_operanzi folosim formula data in enuntul cerintei petru a calcula numarul de operanzi ce trebuie cititi de la tastatura, pe care ii stocam in vectorul tablou_operanzi. In comanda for am impartit fiecare operand introdus, pe biti, in numere formate de atatia biti cati specifica Dim, i-am stocat in vectorul tablou_valori, si deasemenea i-am numarat in variabila nr_valori. Apoi am asignat variabilei result valoarea din primul element al vectorului tablou_valori, si am inceput sa parcurgem vectorul tablou_operatii. In functie de valoare numerica gasita, am realizat operatia corespondenta in variabil result cu valorile salvate in tablou_valori. 
